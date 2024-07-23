@@ -1,0 +1,81 @@
+/* 
+ * Docsify theme corrections
+ */
+
+.sidebar ul li a {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*  */
+
+/*
+ * Markdown customization
+ */
+
+body > main > section.content table,
+body > main > section.content table tr,
+body > main > section.content table td,
+body > main > section.content table th
+{
+    border-width: 0px;
+}
+
+body > main > section.content table thead,
+body > main > section.content table thead tr,
+body > main > section.content table thead td,
+body > main > section.content table thead th
+{
+    border-bottom-width: 1px;
+    border-color: var(--borderColor);
+}
+
+/*  */
+
+.social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon::before {
+    content: '';
+
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+    
+    background-size: cover;
+
+    cursor: pointer;
+}
+
+.social-icon::after {
+    content: attr(name);
+
+    display: inline-block;
+
+    margin-left: 4px;
+    margin-top: 3.5px;
+
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+
+    color: var(--textColor);
+
+    cursor: pointer;
+
+    transition: all 0.125s;
+}
+
+.social-icon:hover::after {
+    color: var(--accent);
+}
+
+.social-icon.discord::before {
+    background-image: url(/assets/images/discord.icon.ico);
+}
+
+/*  */

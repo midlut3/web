@@ -8,5 +8,5 @@
         - ~~hors Parcoursup~~ -->
     - [Inscription](/inscription)
 
-- [Poursuite d'études](/poursuite-etudes/)
+- Poursuite d'études
     - [Ecoles d'ingénieurs](/poursuite-etudes/ecoles-ingenieurs.md)
